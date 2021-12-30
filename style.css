@@ -1,0 +1,93 @@
+@font-face {
+  font-family: RE7Font; src: url('RE7Font.otf');
+}
+
+body{
+  font-size: 50px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-color: #161616;
+  font-family: 'RE7Font', sans-serif;
+}
+
+h1{
+  color: #CD4F4F;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #300000;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar a {
+  /* deals with left text inside sticky header*/
+  display: block;
+  overflow: hidden;
+  transform: translate(100px,1px);
+  float: left;
+  color: #a0a0a0;
+  text-align: center;
+  padding: 3px 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.logo-image{
+    margin-top: 2px;
+    margin-left: -10px;
+  }
+
+.footer {
+  transform: translate(0px,200px);
+    font-size: 30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #161616;
+    text-align: center;
+    color: #a0a0a0;
+  }
+
+.footer:hover {
+    color: white;
+    }
+
+.column {
+    position: relative;
+    z-index: 99;
+    display: inline-block;
+    width: 341px;
+    padding: 5px;
+    padding: 10px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    margin-top: 50px;
+    }
+
+.column:hover {
+      position: relative;
+      z-index: 99;
+      transform: translateY(100px);
+      transform: scale(1.1);
+    }
+    
+.pp {
+  transform: translate(0px,50px);
+    font-size: 30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: 161616;
+    color: white;
+    text-align: left;
+    color: #a0a0a0;
+  }
